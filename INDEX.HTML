@@ -11,22 +11,23 @@
     />
   </head>
   <body>
+    <!---NAV BAR -->
     <nav CLASS=" flex justify-between items-center p-4 bg-black text-white">
       <div>
-        <h1 class="text-lg font-bold text-white">MINE</h1>
+        <h1 class="text-lg font-bold text-red-600">MINE</h1>
       </div>
       <div
-        class="space-x-5 bg-white text-black rounded-xl rounded-lg p-2 shadow-xl shadow-red-400"
+        class="space-x-5 bg-black text-white rounded-xl rounded-lg p-2 shadow-xl shadow-red-400"
       >
-        <button>HOME</button>
-        <button>ABOUT</button>
-        <button>PROJECTS</button>
-        <button>CONTACT</button>
+        <button class="hover:text-red-600">HOME</button>
+        <button class="hover:text-red-600">ABOUT</button>
+        <button class="hover:text-red-600">PROJECTS</button>
+        <button class="hover:text-red-600">CONTACT</button>
       </div>
       <span class="space-x-4 bg-black text-white rounded-lg p-2">
-        <button><i class="fa-brands fa-github text-2xl"></i></button>
-        <button><i class="fa-brands fa-linkedin text-2xl"></i></button>
-        <button><i class="fa-brands fa-discord text-2xl"></i></button>
+        <button><i class="fa-brands fa-github text-2xl hover:text-red-600"></i></button>
+        <button><i class="fa-brands fa-linkedin text-2xl hover:text-red-600"></i></button>
+        <button><i class="fa-brands fa-discord text-2xl hover:text-red-600"></i></button>
 
         <button class="inline-block w-6 h-6 text-xl text-center">
           <img
@@ -35,21 +36,88 @@
         </button>
       </span>
     </nav>
-
-    <div>
-      <div>
-        <h1>Hi,I'm Shivakumar</h1>
-        <h2>Frontend Developer</h2>
+<!---INTRODUCTION PAGE-->
+    <div class="flex">
+      <div class="bg-black text-white p-40 space-y-10 pt-60">
+        <div class="pl-10">
+          <h1 class="text-4xl font-bold">Hi,I'm Shivakumar</h1>
+          <h2 class="text-2xl font-semibold text-red-600">
+            Frontend Developer
+          </h2>
+        </div>
+        <div>
+          <p
+            class="text-lg text-gray-300 max-w-2xl leading-relaxed pl-10 pt-50"
+          >
+            I am a passionate Computer Science student who enjoys building
+            modern and responsive web applications. I focus on writing clean
+            code and creating user-friendly interfaces using HTML, CSS, and
+            Tailwind CSS. I am continuously learning and improving my skills in
+            web development and database management.
+          </p>
+        </div>
       </div>
-      <div>
-        <p>
-          I am a passionate Computer Science student who enjoys building modern
-          and responsive web applications. I focus on writing clean code and
-          creating user-friendly interfaces using HTML, CSS, and Tailwind CSS. I
-          am continuously learning and improving my skills in web development
-          and database management.
-        </p>
+
+      <div class="relative bg-black p-40">
+        <div
+          class="absolute inset-0 rounded-full bg-black blur-3xl opacity-60"
+        ></div>
+
+        <div
+          class="relative w-84 h-84 rounded-full border-4 border-red-600 overflow-hidden"
+        >
+          <img
+            src="./ASSESTS/Screenshot 2026-02-14 at 7.00.43 PM.png"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </div>
+ <!-----ABOUT ME -->   
+    <div class="bg-black text-white p-10 space-y-10">
+      <div class="text-center text-3xl font-bold text-red-600">
+        <h1>About me</h1>
+      </div>
+
+      <div class="flex space-x-96">
+        <div class="text-lg text-gray-300 leading-[1.8] pl-10">
+          <p class="w-[600px]">
+            Hi, I’m Bashamoni Shivakumar, a passionate Developer with a strong
+            foundation in computer science and web technologies. I completed my
+            B.Sc. from Indian Institute of Technology and gained hands-on,
+            experiential learning at LeapStart School of Technology, where I
+            worked on practical projects and real-world development challenges.
+            Through my academic and practical training, I have developed strong
+            skills in frontend design, backend development, and database
+            management. I focus on building scalable, user-friendly applications
+            with clean and maintainable code.
+          </p>
+        </div>
+<!----education-->
+        <div>
+          <div class="text-lg text-gray-300 leading-[1.8] pl-10 border-4 border-red-900 ">
+            <h4 class="text-lg text-red-600">Education</h4>
+            <p >
+              B.Sc. in Computer Science, Indian Institute of Technology,
+              2025-2029
+            </p>
+            <p>
+              experiential learning at LeapStart School of Technology,2025-2029
+            </p>
+          </div>
+<!--SKILLS-->          
+          <div >
+              <div class="text-lg text-gray-300 leading-[1.8] pl-10 mt-10  border-4 border-red-900">
+              <h4 class="text-lg text-red-600">Skills</h4>
+              <p>Programming Languages: Python, JavaScript, </p>
+              <p>Web Development: HTML, CSS, Tailwind CSS, </p>
+              <p>Database Management: PostgreSQL, </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
   </body>
 </html>
